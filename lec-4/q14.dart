@@ -1,6 +1,6 @@
 void main() {
   List<int>? nums;
-  if (nums == null) {
+  if ( nums == null) {
     print("no scores");
   } else {
     int sum = nums.first + nums.last;

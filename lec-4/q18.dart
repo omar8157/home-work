@@ -1,3 +1,5 @@
+import 'dart:js_interop';
+
 void main() {
   Map<String, String> products = {
     "fisrt": null ?? "a",

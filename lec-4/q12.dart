@@ -5,9 +5,10 @@ void main() {
     print("number is empty");
   }
 
-  contact["omar"] = 01015261439;
+  contact["omar"] = "01015261439";
 
-  int len = contact["omar"];
+  
+var len = contact["omar"];
 
-  print(len.bitLength); //not lenth
+  print(len.toString().length); 
 }
